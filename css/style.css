@@ -1,31 +1,66 @@
 *{
     font-family:'Courier New', Courier, monospace;
+    margin: 0px;
 }
 header{
+    right: 0;
     top:0;
     text-align: center;
     min-width: 100%;
     min-height: 80px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: fixed;
+    position: relative;
+    background-color:#90ADBB;
+    z-index: 10;
 }
-
-header nav{
+.logo{
     position: absolute;
-    top:5px
 }
-header nav ul li a{
+.logo1{
+    top:0;
+    left: 45%;
+    text-align: center;
+    position: fixed;
+    z-index: 9;
+}
+.nav-container{
+    position:sticky;
+    top:0px;
+    z-index:8;
+    background-color: white;
+    min-width: 100%;
+    float: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    min-height: 71px;
+}
+nav ul li a{
     text-decoration: none;
+    color:black;
 }
-header nav ul li{
+nav ul li{
+    margin-top: 2px;
     padding: 20px;
-    font-family:'Courier New', Courier, monospace;
     color: gray;
     float: left;
     list-style-type: none;
 }
-header nav ul li:hover{
-    background-color: whitesmoke;
+nav ul li:hover{
+    background-color: rgb(201, 198, 198);
     transition: 0.5s;
     color: black;
+}
+.icon:hover{
+    height: 45px;
+    transition: 0.3s;
+}
+.user-icon{
+    position: absolute;
+    right: 70px;
+    top: 15px;
+    height: 35px;
+}
+.search-icon{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    height: 35px;
 }
