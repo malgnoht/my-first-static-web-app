@@ -1,6 +1,6 @@
 .slide-container{
-    width: 80%;
-    max-height: 30%;
+    width: 100%;
+    max-height: 100vh;
     margin: auto;
     overflow: hidden;
     margin-top: 150px;
@@ -8,9 +8,13 @@
 .slides{
     display: flex;
     transition: 0.5s;
+
 }
 .slides:hover{
     cursor: pointer;
+}
+.s1{
+    margin-left: -100%;
 }
 .news-container{
     margin-left: 25%;
@@ -22,13 +26,8 @@
     margin-bottom: 5vh;
 }
 .news{
-    min-height: 20vh;
+    min-height: 18vh;
 }
 .news:hover{
     cursor: pointer;
-}
-.content{
-    background-color: #FDEDEE;
-    top:0;
-    min-height: 178vh;
 }

@@ -124,6 +124,11 @@ nav ul li:hover{
     top: 15px;
     height: 35px;
 }
+.content{
+    background-color: #FDEDEE;
+    top:0;
+    min-height: 168vh;
+}
 footer .email input{
     font-size: large;
     padding: 5px;
