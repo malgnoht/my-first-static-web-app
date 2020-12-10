@@ -1,6 +1,41 @@
 *{
     font-family:'Courier New', Courier, monospace;
     margin: 0px;
+    box-sizing: border-box;
+}
+hr{
+    width: 95%;
+    height: 3px;
+    margin-left: 0;
+    background-color: white;
+    border-radius: 1px;
+    border: none;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+input{
+    outline: none;
 }
 header{
     right: 0;
@@ -39,28 +74,69 @@ nav ul li a{
 nav ul li{
     margin-top: 2px;
     padding: 20px;
-    color: gray;
     float: left;
     list-style-type: none;
 }
 nav ul li:hover{
-    background-color: rgb(201, 198, 198);
+    background-color: rgb(205, 211, 215);
     transition: 0.5s;
     color: black;
 }
 .icon:hover{
     height: 45px;
     transition: 0.3s;
+    cursor: pointer;
 }
 .user-icon{
     position: absolute;
-    right: 70px;
+    right: 75px;
     top: 15px;
     height: 35px;
 }
+.user-container:hover .sign-in{
+    display: block;
+}
+.sign-in{
+    position: absolute;
+    right: 55px;
+    top: 55px;
+    display: none;
+    background-color: #90ADBB;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 9;
+    border-radius: 6px;
+}
+.sign-in a{
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    border-radius: 6px;
+
+}
+.sign-in a:hover{
+    background-color:#9cd4f0;
+}
 .search-icon{
     position: absolute;
-    right: 15px;
+    right: 20px;
     top: 15px;
     height: 35px;
+}
+footer .email input{
+    font-size: large;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.submit-email{
+    background-color:#637c8c;
+    color: white; 
+    font-size: large;
+    font-weight: bold;
+}
+.submit-email:hover{
+    cursor: pointer;
+    background-color:#6295b5;
+
 }
