@@ -1,8 +1,8 @@
-#Static-web
-##Nội dung website:
+# Static-web
+## Nội dung website:
 *Website này mang có nội dung chia sẻ về các món ăn ,công thức nấu nướng các công thức món ăn,những mẹo nhỏ khi nấu nướng và những thực đơn tốt cho sức khỏe.
 *Người dùng cũng có thể chia sẻ hình ảnh, công thức của bản thân.
-###Homepage
+### Homepage:
 ![alt text](./images/screenshot1.png "title")
 ![alt text](./images/screenshot2.png "title")
 ```html
@@ -133,7 +133,7 @@
 
 </html>
 ```
-##Aboutus:
+## Aboutus:
 ![alt text](./images/screenshot3.png "title")
 ```html
 <!DOCTYPE html>
@@ -253,7 +253,7 @@
 
 </html>
 ```
-##Meals:
+## Meals:
 ![alt text](./images/screenshot4.png "title")
 ```html
 <!DOCTYPE html>
