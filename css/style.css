@@ -51,6 +51,7 @@ header{
 .logo{
     position: absolute;
 }
+    
 .logo1{
     top:0;
     left: 45%;
@@ -142,9 +143,55 @@ footer .email input{
     color: white; 
     font-size: large;
     font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid white;
 }
 .submit-email:hover{
     cursor: pointer;
     background-color:#6295b5;
 
+}
+@media only screen and (max-width: 980px) {
+    .logo1{
+       left: 35%;
+        height: 60px;
+    }
+    nav ul li{
+        margin-top: 2px;
+        padding: 5px;
+        float: none;
+        list-style-type: none;
+        max-width: 20%;
+    }
+    .user-icon{
+        position: absolute;
+        right: 75px;
+        top: 75px;
+        height: 35px;
+    }
+    .search-icon{
+        position: absolute;
+        right: 20px;
+        top: 75px;
+        height: 35px;
+    }
+    .sign-in{
+        position: absolute;
+        right: 30px;
+        top: 115px;
+        display: none;
+        background-color: #90ADBB;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        z-index: 9;
+        border-radius: 6px;
+    }
+    .email{
+        width: 100%;
+    }
+    footer h3{
+        min-height: 60px;
+    }
+    .logo img{
+        height: 10px;
+    }
 }
