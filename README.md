@@ -39,11 +39,6 @@ Hoặc clone repository về máy local
 ## Triển khai ứng dụng của bạn
 Bây giờ trên máy tính local, chúng ta cần khởi tạo Git local repository (hay local repo). Local repo giống như một cái kho, nơi chứa source code mà bạn sẽ dùng để phát triển ứng dụng. Trên terminal di chuyển tới thư mục ở máy tính của bạn và chạy câu lệnh sau :
 
-![alt text](./images/clone.JPG "title")
-Hoặc clone repository về máy local
-![alt text](./images/clone.JPG "title")
-
-
 Commit code của bạn vào kho lưu trữ và triển khai nó đến Heroku bằng Git.
 ![alt text](./images/deploycode1.JPG "title")
 
