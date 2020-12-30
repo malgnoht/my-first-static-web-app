@@ -30,10 +30,17 @@ Các bạn truy cập vào đường link [The Heroku CLI](https://devcenter.her
 ## Tạo Git Repository trên máy Local
 Đầu tiên các bạn tải cho tôi phần mềm GIT để thuận tiện cho việc deploy ứng dụng web.Sau đó bạn đăng nhập tài khoản heroku
 ![alt text](./images/herokulgin.JPG "title")
+
+Tạo một  Git repository mới
+![alt text](./images/taomoi.JPG "title")
+
+Hoặc clone repository về máy local
+![alt text](./images/clone.JPG "title")
 ## Triển khai ứng dụng của bạn
 Bây giờ trên máy tính local, chúng ta cần khởi tạo Git local repository (hay local repo). Local repo giống như một cái kho, nơi chứa source code mà bạn sẽ dùng để phát triển ứng dụng. Trên terminal di chuyển tới thư mục ở máy tính của bạn và chạy câu lệnh sau :
 
-Clone repository về máy local
+![alt text](./images/clone.JPG "title")
+Hoặc clone repository về máy local
 ![alt text](./images/clone.JPG "title")
 
 
@@ -71,5 +78,5 @@ require_once('homepage.html');
 ?>
 ```
 để buildpack có thể đọc được file.Sau đó mình deploy lại và đã thành công.Đây là ứng dụng của mình sau khi được triển khai
-![alt text](./images/thanhcong.JPG "title")
+![alt text](./images/ok1.JPG "title")
 **Cảm ơn các bạn đã theo dõi tài liệu của tôi. Chúc các bạn thành công!**
