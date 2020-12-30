@@ -1,6 +1,6 @@
 # BÀI THU HOẠCH CHƯƠNG 4 - HỌC PHẦN : ĐIỆN TOÁN ĐÁM MÂY VÀ ỨNG DỤNG
-- Sinh viên thực hiện : Nguyễn Minh Thông
-- Mã sinh viên : 1821050949
+- Sinh viên thực hiện : Trịnh Văn Thông
+- Mã sinh viên : 1821050939
 - Mục tiêu : Tạo ra một tài liệu hướng dẫn triển khai ứng dụng web trên nền tảng dịch vụ điện toán đám mây.
 ## Giới thiệu
 **Heroku Web App** là một nền tảng đám mây cho phép các lập trình viên xây dựng, triển khai, quản lý và mở rộng ứng dụng (Paas - Platform as a service). Chúng ta có thể liên kết với tài khoản github để dễ dàng thay đổi thực hiện ngay trong **Github Actions**.
