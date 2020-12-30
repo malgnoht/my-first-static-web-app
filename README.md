@@ -1,7 +1,10 @@
-# My static web app
-*Triển khai ứng dụng Web trên dịch vụ nền tảng điện toán đám mây. (Đây là phần thực hành của nội dung chương 4 trong học phần Điện toán đám mây và ứng dụng đang được giảng dạy tại Khoa Công nghệ thông tin của Trường Đại học Mỏ - Địa chất)
-### Giới thiệu:
-### Homepage:
+# BÀI THU HOẠCH CHƯƠNG 4 - HỌC PHẦN : ĐIỆN TOÁN ĐÁM MÂY VÀ ỨNG DỤNG
+- Sinh viên thực hiện : Nguyễn Minh Thông
+- Mã sinh viên : 1821050949
+- Mục tiêu : Tạo ra một tài liệu hướng dẫn triển khai ứng dụng web trên nền tảng dịch vụ điện toán đám mây.
+## Giới thiệu
+**Heroku Web App** là một nền tảng đám mây cho phép các lập trình viên xây dựng, triển khai, quản lý và mở rộng ứng dụng (Paas - Platform as a service). Chúng ta có thể liên kết với tài khoản github để dễ dàng thay đổi thực hiện ngay trong **Github Actions**.
+Trong bài viết này tôi sẽ tạo ra một "tài liệu" hướng dẫn các bạn tiến hành xây dụng một ứng dụng web và triển khai nó theo giải pháp điện toán đám mây **Heroku**.
 ![alt text](./images/screenshot1.png "title")
 ![alt text](./images/screenshot2.png "title")
 ```html
