@@ -71,5 +71,5 @@ require_once('homepage.html');
 ?>
 ```
 để buildpack có thể đọc được file.Sau đó mình deploy lại và đã thành công.Đây là ứng dụng của mình sau khi được triển khai
-![alt text](./images/thanhcong1.PNG "title")
+![alt text](./images/thanhcong.JPG "title")
 **Cảm ơn các bạn đã theo dõi tài liệu của tôi. Chúc các bạn thành công!**
