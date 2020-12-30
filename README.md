@@ -72,6 +72,10 @@ require_once('homepage.html');
 /// gọi file html
 ?>
 ```
+<<<<<<< HEAD
 để buildpack có thể đọc được file.Sau đó mình deploy lại và đã thành công.Đây là ứng dụng của mình sau khi được triển khai
+=======
+để buildpack có thể đọc được file.Sau đó mình deploy lại và đã thành công. Đây là ứng dụng của mình sau khi được triển khai
+>>>>>>> e0a5b4cd90afd16ff31c1f10899085b583c1f418
 ![alt text](./images/ok1.JPG "title")
 **Cảm ơn các bạn đã theo dõi tài liệu của tôi. Chúc các bạn thành công!**
