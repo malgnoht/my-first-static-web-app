@@ -63,7 +63,7 @@ Lỗi thứ 2 mà mình muốn nhắc đến chính là lỗi :
 ![alt text](./images/error2.JPG "title")
 Lỗi này xảy ra do Heroku buildpack không thể đọc được ngôn ngữ mà bạn triển khai (Ví dụ: Html,..)
 ![alt text](./images/error1.JPG "title")
-Hoặc buildpack chưa được cài đặt để hỗ trợ ngôn ngữ đó ở ứng dụng này mình đã fix lỗi bằng cách truy cập https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku/php.tgz và cài đặt buldpack cho PHP sau đó thêm một file index.php vào source code với nội dung
+Hoặc buildpack chưa được cài đặt để hỗ trợ ngôn ngữ đó ở ứng dụng này mình đã fix lỗi bằng cách truy cập https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku/php.tgz và cài đặt buildpack cho PHP sau đó thêm một file index.php vào source code với nội dung
 ``` PHP
 <?php 
 require_once('homepage.html');
